@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<FISRq>
+    <Msg Scheme="CRB" Version="1.0">
+        <Request RqId="CRB/FindSuspiciousRq">
+            <Body>
+                <req-ROWSET>
+                    <req-ROW>
+                    </req-ROW>
+                </req-ROWSET>
+            </Body>
+        </Request>
+    </Msg>
+</FISRq>

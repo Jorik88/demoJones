@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<FISRq>
+    <Msg Scheme="CRB" Version="1.0">
+        <Request RqId="CRB/FindSuspiciousRq">
+            <Body>
+                <req-ROWSET>
+                    <req-ROW>
+                        <parameters>
+                            <p name="person_address" type="A">p o box 441645 miamiflorida united states</p>
+                        </parameters>
+                        <parameters>
+                            <p name="person_name" type="N">Иванов иван иванович</p>
+                        </parameters>
+                    </req-ROW>
+                </req-ROWSET>
+            </Body>
+        </Request>
+    </Msg>
+</FISRq>
+
+
