@@ -7,7 +7,6 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -15,7 +14,6 @@ import javax.xml.bind.Unmarshaller;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -90,18 +88,6 @@ public class TestAmlModel {
         parameters1.clear();
 
         System.out.println(fisRq);
-    }
-
-    @Test
-    public void testCler() {
-        List<String> strings = new ArrayList<>();
-        strings.add("Ann");
-        strings.add("Vova");
-
-        System.out.println(strings);
-        strings.clear();
-        System.out.println(strings);
-
     }
 
     private String sendRequest(FisRq fisRq) throws IOException, JAXBException {
